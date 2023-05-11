@@ -9,10 +9,16 @@
             "email": "barryvdh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/paintface/dompdf-arabic-support.git"
+        }
+    ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "dompdf/dompdf": "^2.0.1",
-        "illuminate/support": "^6|^7|^8|^9|^10"
+        "illuminate/support": "^6|^7|^8|^9|^10",
+        "dompdf/dompdf": "dev-arabic-support"
     },
     "require-dev": {
         "orchestra/testbench": "^4|^5|^6|^7|^8",
